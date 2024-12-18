@@ -5,6 +5,8 @@
         <title>Chonburi</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     </head>
     <body>
         <header>
@@ -14,18 +16,21 @@
             </div>
         </header> 
         <nav>
-            <div class="container">
-                <ul class="nav-menu">
-                    <li><a href="/homepage.html">หน้าแรก</a></li>
-                    <li><a href="/detailpage.html">ลายละเอียด</a></li>
-                    <li><a href="/contact.html">ติดต่อ</a></li>
+            <div class="wrapper">
+                <div class="logo"><a href="/homepage.html">Chonburi</a></div>
+                <ul class="nav-links">
+                  <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                  <li><a href="/homepage.html">Home</a></li>
+                  <li><a href="/detailpage.html">About</a></li>
+                  <li><a href="/contact.html">Feedback</a></li>
                 </ul>
                 <div class="hamburger-menu">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-            </div>
+                <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+              </div>
         </nav>
 
         <main>
